@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".home">
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/customtoast"
+                android:text="Custom Toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/popupmenu"
+        android:text="popupmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/popupactivity"
+                android:text="popup activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+<TextView
+    android:textSize="40dp"
+    android:background="@drawable/ic_launcher_foreground"
+    android:textColor="@color/black"
+    android:id="@+id/contextmenu"
+    android:text="contet menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
